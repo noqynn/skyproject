@@ -1,0 +1,389 @@
+/*Chung*/
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #455DA1;
+    line-height: 1.4rem;
+    font-size: 100%;
+    font-family: 'Philosopher', sans-serif;
+    background-repeat: no-repeat;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.4rem;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin:0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+.grid {
+    width:1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/*Cursor*/
+body{
+    cursor: url('./hinh/lefty164.gif'), auto;
+  }
+  /* Header */
+
+*{
+    font-family: 'Philosopher', sans-serif;
+    line-height:3vw;
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.6rem;
+}
+
+.header{
+    position:relative;
+    text-align:center;
+    width:100vw;
+    height:fit-content;
+    color:#E8EEFF;
+    background: url(./hinh/headerbackground.png) no-repeat;
+    background-size: 100vw;
+    /* border: red solid 2px; */
+    display:flex;
+
+}
+.header__info{
+    flex:1;
+    position:relative;
+    margin:8%;
+    /* background-color: rgba(999,0,0,0.2); */
+}
+
+.header__skylogo{
+    width: 15vw;
+}
+.header__commingsoon{
+    font-size:4vw;
+    position:relative;
+    top:-5vw;
+    color:#E8EEFF;
+    text-shadow: -10px 0px 15px #c6f0f5, 10px 0px 15px #c6f0f5, 0px 10px 15px #c6f0f5, 0px -10px 15px #c6f0f5;
+}
+.header__introduce{
+    /* font-size:2vw; */
+    font-size: 1.5rem;
+    font-weight:500;
+    position:relative;
+    top:-5vw;
+    padding-bottom: 2rem;
+    line-height: 1.8rem;
+}
+.header__wishlist:hover{
+    opacity: 0.8;
+}
+.header__wishlist{
+    font-size:1.8vw;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 700;
+    position:relative;
+    top:-2.5vw;
+    background: #6089FF;
+    padding:1rem 1.5rem;
+    margin: 2vw;
+    border-radius: 3vw;
+    color: white ;
+    text-decoration-line: none;
+    cursor:pointer;
+    transition: opacity 0.1s ease;
+}
+
+
+
+/* Giải thưởng */
+.footer{
+    background: #455DA1;
+    padding: 10vw;
+}
+
+.footer h2{
+    font-size: 3.5rem;
+}
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+.footerimg{
+    margin: 2vw;
+    width: 15vw;
+    height:fit-content;
+}
+
+
+/*time*/
+#time{
+    margin:auto;
+    margin-bottom: 1vw;
+    background: rgba(209,203,255,0.5);
+    display: flex;
+    justify-content:space-around;
+    align-items:last baseline;
+    border-radius: 1vw;
+    font-size:2vw;
+    padding:2vw;
+    color:#504b71;
+    opacity:0.7;
+    font-size: 1.5vw;
+    width: 50%;
+    box-shadow: -10px 0px 15px rgba(209,203,255,0.5), 10px 0px 15px rgba(209,203,255,0.5), 0px 10px 15px rgba(209,203,255,0.5), 0px -10px 15px rgba(209,203,255,0.5);
+}
+#day,#hour,#minute{
+        color:#1e2859;
+        font-size: 4vw;
+        font-weight: 800;
+    }
+.timecount{
+    font-size:1.5vw;
+    color:#1e2859;
+}
+
+/* trailer */
+
+.trailer{
+    text-align: center;
+    background-image:
+    linear-gradient(to bottom, rgba(69, 93, 161),  rgba(117, 19, 93, 0)),
+    url("./hinh/trailer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    /* border:red solid 5px; */
+    padding-bottom:2vw;
+}
+.trailer-info{
+    width:80vw;
+    margin:auto;
+}
+.trailer-des h1{
+    color:#1E2859;
+    font-size:3vw;
+}
+.trailer-des{
+    font-size: 1.5rem;
+    font-weight:500;
+    color:#e8feff;
+    margin:0 5vw;
+}
+.trailer h2{
+    padding:3rem;
+    margin: 1.5rem;
+    font-size: 3.5rem;
+}
+.video{
+    box-shadow: #A7A1D2;
+    box-shadow: 0 0 20 ;
+    max-width:100vw;
+    margin-bottom: 3rem;
+}
+.video-shadow{
+    width: 600px;
+    height: 600px;
+    background-color: black;
+}
+
+
+
+/* <Tinh nang > */
+.tinh-nang{
+    background-image:
+    linear-gradient(to bottom, rgba(69, 93, 161, 0.5), rgba(69, 93, 161, 0.5)),
+    url('./hinh/Tinh-nang-goc-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.tinh-nang h2{
+    padding:4rem;
+    font-size: 3.5rem;
+}
+
+.tinh-nang-container{
+display:flex;
+justify-content: center;
+/* color: antiquewhite; */
+color:#e8feff;
+width:80%;
+margin:auto;
+}
+
+.card-image img{
+    width:372px;
+    height: 585px;
+    /* background-image:url('./hinh/tinh-nang-goc.png'); */
+    object-fit: cover;
+    object-position: 47% 50%;
+    padding:28px;
+    border: 5px solid rgba(69,93,161,0.5);
+    border-radius: 130px;
+    flex-basis: 30%;
+    margin:16px;
+    /* position: absolute; */
+}
+.card-text-1{  
+    /* height: 585px; */
+    text-align: right;  
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 30%;
+}
+.card-text-p{  
+    font-weight: 500;
+}
+.tinh-nang-1{
+margin-top:40px;
+}
+
+
+.tinh-nang-1 h3{
+    font-size: 1.5rem; 
+    line-height: 1.9rem;
+}
+.tinh-nang-2{
+    margin-bottom:40px;
+    }
+
+.tinh-nang-2 h3{
+        font-size: 1.5rem; 
+        line-height: 1.9rem;
+ }
+.card-text-2{  
+    /* height: 585px; */
+    text-align: left;  
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 30%;
+}
+
+
+
+
+/* <FAQs > */
+.faqs{
+    padding-bottom: 56px;
+    background-image: 
+    linear-gradient(to bottom, rgba(69, 93, 161, 1), rgba(69, 93, 161, 0), rgba(69, 93, 161, 0)),
+    url('./hinh/FAQs.png');
+    background-size: 100%;
+    /* color:antiquewhite; */
+    color:#e8feff;
+}
+.faqs h2{
+    padding:3rem;
+    padding-top:5.5rem;
+    padding-bottom: 4rem;
+    font-size: 3.5rem;
+}
+.faqs_container{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 80%;
+    margin: auto;
+}
+.faq {
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #1E2859;
+    cursor: pointer;
+    border-radius: 8px;
+    height:fit-content;
+}
+.faq p{
+display: none;
+margin-top: 0.8rem;
+}
+.faq.open p{
+    display:  block;
+    }
+.faq h4{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.15rem;
+}
+
+/* tin-tuc */
+.tin-tuc{
+    background-color: #1E2859;
+    color:#e8feff;
+    padding-bottom:3rem;
+    
+}
+.tin-tuc h2{
+    padding:2.5rem;
+    padding-top:6rem;
+    font-size: 3.5rem;
+}
+.tin-tuc-container{
+    padding-top: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:90%;
+    margin: auto;
+   
+}
+
+.tin-tuc-item{ 
+    padding: 12px 16px;
+    margin-top: 16px;
+    flex-basis: 30%;
+    min-width: 0;
+    border: 5px solid #A7A1D2;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.tin-tuc-item a{
+    text-decoration-line: none;
+}
+
+.tin-tuc-item p{
+    color:#e8feff;
+}
+
+.tin-tuc-item img{ 
+max-width: 100%;
+height:auto;
+border: 5px #455DA1;
+border-radius: 16px;
+padding-bottom: 8px;
+}
+
+.tin-tuc-item h3{
+    font-size: 24px;
+    font-style: medium;
+    padding:8px;
+    color:#9db3f0;
+    line-height: 1.75rem;
+}
+
+.tin-tuc-h3{
+    font-size: 24px;
+    font-style: medium;
+    padding:8px;
+    color:#9db3f0;
+    line-height: 1rem;
+}
+
+h2{
+    text-align:center; color: #e8feff; font-size:5vw;
+}
